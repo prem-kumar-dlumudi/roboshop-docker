@@ -3,7 +3,7 @@ const instana = require('@instana/collector');
 // MUST be done before loading anything else!
 // some change, another change
 //docker creates intermediate container for every instruction
-instana({
+instana( {
     tracing: {
         enabled: true
     }
