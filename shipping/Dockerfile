@@ -14,6 +14,7 @@ COPY --from=builder /app/shipping.jar .
 USER roboshop
 ENTRYPOINT ["java", "-jar", "shipping.jar"]
 
+
 # FROM maven:3.9.14
 # EXPOSE 8080
 # WORKDIR /app
