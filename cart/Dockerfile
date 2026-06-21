@@ -18,6 +18,7 @@ USER roboshop
 CMD ["server.js"]
 ENTRYPOINT ["node"]
 
+
 # FROM node:20
 # # this creates /app and move there
 # WORKDIR /app
