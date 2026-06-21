@@ -18,9 +18,11 @@ USER roboshop
 CMD ["server.js"]
 ENTRYPOINT ["node"]
 
+
 # FROM node:20
 # # this creates /app and move there
 # WORKDIR /app
+
 # ENV MONGO="true" \
 #     MONGO_URL="mongodb://mongodb:27017/catalogue" \
 #     REDIS_URL="redis://redis:6379"
